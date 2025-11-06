@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.nav ul{
+     list-style-type:none ;
+    margin: 5px;
+    padding: 10px 30px;
+    background-color: gray;
+    overflow: hidden;
+}
+
+.nav a{
+    text-decoration: none;
+    margin: 0px;
+    padding: 10px 30px;
+    display: block;
+    text-align: center;
+    color: blueviolet;
+}
+
+.nav li{
+    float: right;
+
+
+}
+
+/*.nav a:hover{
+    background-color: darkgray;
+}*/
+
+h1{padding-left: 10px;
+    font-size: 10pt;
+    
+
+}
