@@ -1,4 +1,4 @@
-.navbar {
+  .navbar {
   align-items: baseline; /* vertically centers logo + nav */
   display: flex;
   justify-content: space-between;
@@ -7,23 +7,23 @@
 }
 
 .logo img {
-  padding-left: 220px;
-  height: 65px; /* adjust size as needed */
+  padding-left: 375px;
+  height: 120px; /* adjust size as needed */
   margin-left: 20px;
 }
 
 nav ul {
   display: flex;
-  gap: 30px;
+  gap: 40px;
   list-style: none;
-  padding-right: 220px;
+  padding-right: 375px;
 }
 
 nav a {
   text-decoration: none;
-  font-weight: 650;
+  font-weight: 550;
   color: black;
-  font-size: 10px;
+  font-size: 17px;
   transition: .3s;
   font-family:'Montserrat', sans-serif;
 }
@@ -121,4 +121,9 @@ overflow-y: auto;
   height: 2000px;
   background-color:white;
   padding: 20px;
+}
+
+.firstBG{
+  margin:0px;
+ background-attachment: fixed;
 }
