@@ -4,6 +4,7 @@
   justify-content: space-between;
   background-color: white;
   border-bottom: 1.5px solid #eee;
+  padding-bottom: 20px;
 }
 
 .logo img {
@@ -20,18 +21,42 @@ nav ul {
 }
 
 nav a {
+  width: max-content;
   text-decoration: none;
+cursor: pointer;
   font-weight: 550;
+  position: relative;
   color: black;
   font-size: 17px;
-  transition: .3s;
   font-family:'Montserrat', sans-serif;
+}
+
+nav a::after{
+content: "";
+position: absolute;
+bottom: -15px;
+height: 4px;
+width: 100%;
+left: 0;
+background-color:hsl(34, 51%, 33%);
+
+transition: 0.3s;
+transition-timing-function: ease-in-out;
+transform: scaleX(0);
+
 }
 
 nav a:hover {
   opacity: 0.6;
-  color:burlywood;
+  color:hsl(34, 57%, 70%);
+
 }
+
+nav a:hover::after{
+  transform: scaleX(1);
+}
+
+
 
 .footer {
   background-color: #0d0d0d;
@@ -124,10 +149,14 @@ overflow-y: auto;
 }
 
 .firstBG{
-margin: 10px 0px;
- background-attachment: fixed;
+margin: 0px 0px;
+background-image: url(kkopi\ home\ banner.jpg);
+ background-attachment:scroll;
+ height: 1080px;
+ 
 }
 
 *{
   margin: 0px;
 }
+
