@@ -7,23 +7,23 @@
 }
 
 .logo img {
-  padding-left: 220px;
-  height: 65px; /* adjust size as needed */
+  padding-left: 370px;
+  height: 120px; /* adjust size as needed */
   margin-left: 20px;
 }
 
 nav ul {
   display: flex;
-  gap: 30px;
+  gap: 40px;
   list-style: none;
-  padding-right: 220px;
+  padding-right: 370px;
 }
 
 nav a {
   text-decoration: none;
-  font-weight: 650;
+  font-weight: 550;
   color: black;
-  font-size: 10px;
+  font-size: 17px;
   transition: .3s;
   font-family:'Montserrat', sans-serif;
 }
@@ -38,13 +38,14 @@ nav a:hover {
   color: white;
   padding: 60px 60px 30px;
   font-family: 'Montserrat', sans-serif;
+  gap: 20px;
 }
 
 .footer-container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 60px;
+  gap: 20px;
 }
 
 .footer-section {
