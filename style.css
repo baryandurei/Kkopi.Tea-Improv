@@ -111,3 +111,16 @@ nav a:hover {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.5px;
 }
+
+body{
+height: 100%;
+overflow-y: auto;
+
+}
+
+.body{
+  height: 2000px;
+  background-color:white;
+  padding: 20px;
+  
+}
