@@ -1,28 +1,40 @@
 .navbar {
   align-items: baseline; /* vertically centers logo + nav */
+  display: inline;
   justify-content: space-between;
   background-color: white;
   border-bottom: 1.5px solid #eee;
 }
 
 .logo img {
+  float: left;
   padding-left: 220px;
+  height: 200px; /* adjust size as needed */
   margin-left: 20px;
 }
 
+.nav ul {
+  margin: 120px 20px;
   display: flex;
   gap: 30px;
   list-style: none;
   padding-right: 220px;
+  float: right;
+  
 }
 
+.nav a {
+  
   text-decoration: none;
   font-weight: 650;
   color: black;
+  font-size: 15px;
   transition: .3s;
   font-family:'Montserrat', sans-serif;
+  
 }
 
+.nav a:hover {
   opacity: 0.6;
   color:burlywood;
 }
