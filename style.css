@@ -1,4 +1,4 @@
-.navbar {
+  .navbar {
   align-items: baseline; /* vertically centers logo + nav */
   display: flex;
   justify-content: space-between;
@@ -7,23 +7,23 @@
 }
 
 .logo img {
-  padding-left: 220px;
-  height: 65px; /* adjust size as needed */
+  padding-left: 375px;
+  height: 120px; /* adjust size as needed */
   margin-left: 20px;
 }
 
 nav ul {
   display: flex;
-  gap: 30px;
+  gap: 40px;
   list-style: none;
-  padding-right: 220px;
+  padding-right: 375px;
 }
 
 nav a {
   text-decoration: none;
-  font-weight: 650;
+  font-weight: 550;
   color: black;
-  font-size: 10px;
+  font-size: 17px;
   transition: .3s;
   font-family:'Montserrat', sans-serif;
 }
@@ -35,41 +35,64 @@ nav a:hover {
 
 .footer {
   background-color: #0d0d0d;
+  background-size:  auto;
+  background-repeat: no-repeat;
   color: white;
-  padding: 60px 60px 30px;
   font-family: 'Montserrat', sans-serif;
+  
 }
 
 .footer-container {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 60px;
+  /* flex-wrap: wrap; */
+  gap: 100px;
+  padding-left: 340px;
+  padding-bottom: 90px;
+  padding-top: 70px;
 }
 
 .footer-section {
   max-width: 250px;
 }
 
-.footer-section h3 {
-  font-size: 16px;
+.footer-section2 h3 {
+  padding-top: 1px;
+  font-size: 20px;
   /* margin-bottom: 15px; */
   font-weight: 700;
-  color: #d0a67f; /* gold-ish like screenshot */
+  color:burlywood; /* gold-ish like screenshot */
+}
+
+.footer-section h3{
+  padding-top: 1px;
+  font-size: 20px;
+  /* margin-bottom: 15px; */
+  font-weight: 700;
+  color:burlywood; /* gold-ish like screenshot */
 }
 
 .footer-logo {
-  width: 150px;
+  width: 220px;
   /* margin-bottom: 15px; */
 }
 
 .footer-section a {
+  height: 20px;
   display: block;
   text-decoration: none;
   color: white;
-  margin: 6px 0;
-  font-size: 14px;
+  margin: 15px 0;
+  font-size: 17px;
   transition: .3s;
+}
+
+.footer-section p {
+   font-size: 17px;
+}
+
+.footer-section2 p {
+   font-size: 17px;
+   padding-top: 5px;
 }
 
 .footer-section a:hover {
@@ -78,37 +101,48 @@ nav a:hover {
 
 .newsletter-box {
   display: flex;
-  margin-top: 10px;
+  margin-top: 5px;
+  padding-top: 20px;
 }
 
 .newsletter-box input {
-  padding: 10px;
+  padding: 15px;
   border: none;
-  width: 150px;
+  width: 200px;
 }
 
 .newsletter-box button {
-  padding: 10px 18px;
+  padding: 10px 20px;
   border: none;
-  background-color: #d0a67f;
+  background-color: #fae8dd;
   cursor: pointer;
+  
 }
 
-.social-icons a {
-  font-size: 14px;
+.newsletter-box button:hover {
+  opacity: 0.9;
+  color: #1f1312
+}
+
+.social-icons button {
+  font-size: 50px;
   margin-right: 10px;
   text-decoration: none;
   color: white;
+  
 }
 
 .footer-bottom {
-  background-color: #583c39; /* brown color */
+  background-color: #513130; /* brown color */
+  background-repeat: no-repeat;
+  background-size:  cover;
+  padding: 0px auto 0px auto;
   color: white;
   text-align: center;
   padding: 15px 0;
   font-size: 14px;
   font-family: 'Montserrat', sans-serif;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.1px;
 }
 
 body{
@@ -121,54 +155,4 @@ overflow-y: auto;
   height: 2000px;
   background-color:white;
   padding: 20px;
-}
-
-.product img{
-  width: 40%;
-  height: auto;
-}
-
-.menu-details{
-  flex-grow: 1;
-  padding-left: 40px;
-}
-
-.menu-title{
-  font-family: sans-serif;
-  font-size: 48px;
-  font-weight: 900;
-  margin-bottom: 25px;
-  letter-spacing: 2px;
-  position: relative;
-  display: inline-block;
-  color: dark rgb(83, 13, 13);
-}
-
-menu-title::after{
-    content: '';
-    display: block;
-    position: absolute;
-    bottom: -15px;
-    width: 100%;
-    height: 15px;
-}
-
-.menu-flavor{
-  display: flex;
-  gap: 80px;
-}
-
-.flavor-column{
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  flex: 1;
-}
-
-.flavor-column li{
-  font-family: sans-serif;
-  font-size: 24px;
-  font-weight: 500;
-  margin-bottom: 10px;
-  white-space: nowrap;
 }
