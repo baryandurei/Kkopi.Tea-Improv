@@ -191,7 +191,11 @@ overflow-y: auto;
 
 .firstBG{
   margin:0px;
- background-attachment: fixed;
+  height: 800px;
+ background-attachment: scroll;
+background-image:url(kkopi\ home\ banner.jpg);
+ background-repeat: no-repeat;
+ 
 }
 
 button{
@@ -259,3 +263,10 @@ button:hover::after
 .footer-section a:hover::after
 {
     transform: scaleX(1)}
+
+ .Content{
+
+  float: right;
+  padding: 10%;
+  
+ }
