@@ -309,3 +309,8 @@ button:hover::after
   transform: translateY(-3px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
+
+.product, img{
+  width: 100px;
+  height: 100px;
+}
