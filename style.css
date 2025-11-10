@@ -10,7 +10,7 @@ html, body {
   justify-content: space-between;
   background-color: white;
   border-bottom: 1.5px solid #eee;
-  padding-bottom: 20px;
+  
 }
 
 .logo img {
@@ -189,7 +189,11 @@ overflow-y: auto;
 
 .firstBG{
   margin:0px;
- background-attachment: fixed;
+  height: 825px;
+ background-attachment: scroll;
+background-image:url(kkopi\ home\ banner.jpg);
+ background-repeat: no-repeat;
+ 
 }
 
 button{
@@ -257,3 +261,49 @@ button:hover::after
 .footer-section a:hover::after
 {
     transform: scaleX(1)}
+
+.hero {
+  background-color: #f3e6e000;
+  min-height: 50vh;
+  display: flex;
+  justify-content: flex-end; /* move content to the right */
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  padding: 5% 8%; /* space from right edge */
+  background-image: url('drinks.png'); /* optional: add your image file */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left center;
+}
+
+.content {
+  text-align: right; /* align text to the right */
+  max-width: 500px;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  color: #222;
+  margin-bottom: 1.5rem;
+  line-height: 1.3;
+}
+
+ .cta{
+  background-color: #000;
+  color: #fff;
+  padding: 14px 32px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 50px;
+  text-decoration: none;
+  display: inline-block;
+ transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+ }
+
+ .cta:hover {
+  background-color: #513130;
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
