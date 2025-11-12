@@ -184,7 +184,7 @@ overflow-y: auto;
 }
 
 .body{
-  height: 2000px;
+  height: 100%; /* Body Space/White Space */
   background-color:white;
   padding: 20px;
 }
@@ -264,7 +264,7 @@ button:hover::after
 {
     transform: scaleX(1)}
 
-.hero {
+.ctabox {
   background-color: #f3e6e000;
   min-height: 50vh;
   display: flex;
@@ -283,7 +283,7 @@ button:hover::after
   max-width: 500px;
 }
 
-.hero h1 {
+.ctabox h1 {
   font-size: 3.5rem;
   color: #222;
   margin-bottom: 1.5rem;
@@ -348,4 +348,33 @@ button:hover::after
     .search-container button:hover {
       background-color: #3f3024;
     }
+
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      overflow-y: auto;
+      gap: 10px;
+      padding: 10px;
+      background-color:#0d0d0d;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      height: 150px; /* controls how tall the scroll box is */
+      width: 175px;
+    }
+
+     .button-container::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    .button-container::-webkit-scrollbar-thumb {
+      background-color: #888;
+      border-radius: 5px;
+    }
+
+  .body2{
+height: 1000px; /* Body Space/White Space */
+  background-color:#F0E2DC;
+  padding: 20px;
+
+  }
 
