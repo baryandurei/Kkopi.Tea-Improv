@@ -161,6 +161,8 @@ nav a:hover::after{
   margin-right: 10px;
   text-decoration: none;
   color: white;
+    position: relative;
+    gap: 10px;
   
 }
 
@@ -378,3 +380,144 @@ height: 1000px; /* Body Space/White Space */
 
   }
 
+  
+
+  .social-icons{
+    background: transparent;
+    position: relative;
+    display: flex;
+    gap: 10px;
+  }
+
+  .btn{
+    background-color: #f9f9f9;
+    border: none;
+    border-radius: 25px;
+    color: #424242;
+    box-shadow: -6px -6px 10px #f9f9f9
+                6px 6px 10px #00000026;
+  }
+
+  .btn:hover{
+    box-shadow: 2px 2px 2px #f9f9f9
+                -2px -2px 2px #00000026;
+  }
+
+
+  .container5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    gap: 16px;
+    transition: 0.3s;
+    
+  }
+
+  .container5 li{
+    position: relative;
+    overflow: hidden;
+    flex: 0 0 80px;
+    border-radius: 50px;
+    cursor: pointer;
+     border: 1.2px solid #eee;
+      box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.4),
+      -2px -5px 10px  rgba(0, 0, 0, 0.1);
+      
+  }
+
+  .container5 li img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .container li,
+  .container5 li img
+  {
+    transition: 0.5s;
+  } 
+  .container5 li .content{
+    transition: 1.5s ease;
+  }
+  .container5 span{
+    text-align: center;
+    width: 75%;
+  }
+
+  .container5 h2{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 4px;
+    margin-bottom: 3px;
+    white-space: nowrap;
+    color:#eee;
+  }
+  
+  .container5 p{
+    color: #eee;
+    font-size: 10px;
+    width: 100%;
+  }
+
+  .container5 li .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    color: #fff;
+    padding: 15px;
+    background: 
+    linear-gradient(
+          0deg, rgb(0 0 0 / 70%) 10%,
+          rgb (255 255 255 / 0%) 100%
+    );
+          opacity: 0;
+          visibility: hover;
+  }
+
+  .container:hover{
+    gap: 0;
+  }
+
+  .container li .content span{
+    position: absolute;
+    z-index: 3;
+    left: 50%;
+    bottom: 0px;
+    translate: -50%;
+    scale: 0.05;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .container5 li:hover{
+    flex: 0 1 260px;
+    scale: 1.1;
+    z-index: 10;
+    opacity: 1;
+    
+  }
+
+  .container li img{
+  }
+
+  .container li hover .content{
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .container li:hover span{
+    scale: 1;
+    opacity: 1;
+    visibility: visible;
+  }
+
+
+ 
