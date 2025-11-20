@@ -374,13 +374,14 @@ button:hover::after
     }
 
   .body2{
-height: 1000px; /* Body Space/White Space */
+  height: 1000px; /* Body Space/White Space */
   background-color:#F0E2DC;
   padding: 20px;
-
+    text-align: center;
+    font-size: 60px;
+    display: flex;
+    color: rgb(176, 73, 7)
   }
-
-  
 
   .social-icons{
     background: transparent;
@@ -415,11 +416,13 @@ height: 1000px; /* Body Space/White Space */
   }
 
   .container5 li{
+    margin-top: 50px;
     position: relative;
     overflow: hidden;
-    flex: 0 0 80px;
+    flex: 0 0 150px;
     border-radius: 50px;
     cursor: pointer;
+    height: 300px;
      border: 1.2px solid #eee;
       box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.4),
       -2px -5px 10px  rgba(0, 0, 0, 0.1);
@@ -520,4 +523,93 @@ height: 1000px; /* Body Space/White Space */
   }
 
 
- 
+ .iced-latte{
+    background: transparent;
+    position: relative;
+    display: flex;
+    gap: 10px;
+  }
+
+  .iced-latte{
+    font-weight: bolder;
+    padding-top: 200px;
+    padding-left: 25px;
+    border: none;
+    border-radius: 25px;
+    color: rgb(255, 247, 131);
+    box-shadow: -6px -6px 10px #f9f9f9
+                6px 6px 10px #00000026;
+  }
+
+  .iced-latte:hover{
+    box-shadow: 2px 2px 2px #f9f9f9
+                -2px -2px 2px #00000026;
+  }
+
+  .milktea{
+    background: transparent;
+    position: relative;
+    display: flex;
+    gap: 10px;
+  }
+
+  .milktea{
+    font-weight: bolder;
+    padding-top: 200px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 25px;
+    color: rgb(255, 247, 131);
+    box-shadow: -6px -6px 10px #f9f9f9
+                6px 6px 10px #00000026;
+  }
+
+  .milktea:hover{
+    box-shadow: 2px 2px 2px #f9f9f9
+                -2px -2px 2px #00000026;
+  }
+
+  .amerikano{
+    background: transparent;
+    position: relative;
+    display: flex;
+    gap: 10px;
+  }
+
+  .amerikano{
+    font-weight: bolder;
+    padding-top: 200px;
+    border: none;
+    border-radius: 25px;
+    color: rgb(255, 247, 131);
+    box-shadow: -6px -6px 10px #f9f9f9
+                6px 6px 10px #00000026;
+  }
+
+  .amerikano:hover{
+    box-shadow: 2px 2px 2px #f9f9f9
+                -2px -2px 2px #00000026;
+  }
+
+  .hot-drinks{
+    background: transparent;
+    position: relative;
+    display: flex;
+    gap: 10px;
+  }
+
+  .hot-drinks{
+    font-weight: bolder;
+    padding-top: 200px;
+    padding-left: 30px;
+    border: none;
+    border-radius: 25px;
+    color: rgb(255, 247, 131);
+    box-shadow: -6px -6px 10px #f9f9f9
+                6px 6px 10px #00000026;
+  }
+
+  .hot-drinks:hover{
+    box-shadow: 2px 2px 2px #f9f9f9
+                -2px -2px 2px #00000026;
+  }
