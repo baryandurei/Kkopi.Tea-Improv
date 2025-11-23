@@ -614,12 +614,9 @@ button:hover::after
                 -2px -2px 2px #00000026;
   }
 
-  .about-top.png{
-    width: 90%;       /* Sets the width to 90% of the container (adjust as needed) */
-    display: block;
-    margin-left: auto; /* Centers the image */
-    margin-right: auto; /* Centers the image */
-    max-height: 500px;  /* Keeps the image from being too tall */
-    object-fit: contain; /* Shows the entire image, adding space if needed */
+  .aboutpic {
+  width: 100%;
+  max-height: 400px; 
+  object-fit: cover;
 }
   
