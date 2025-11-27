@@ -619,4 +619,10 @@ button:hover::after
   max-height: 400px; 
   object-fit: cover;
 }
+
+/*.transparent-img{
+  width: 100%;
+  max-height: 400px; 
+  object-fit: cover;
+}*/
   
