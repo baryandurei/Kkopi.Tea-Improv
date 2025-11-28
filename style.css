@@ -188,12 +188,12 @@ overflow-y: auto;
 .body{
   height: 100%; /* Body Space/White Space */
   background-color:white;
-  padding: 20px;
+  padding: 5%;
 }
 
 .firstBG{
   margin:0px;
-  height: 825px;
+  height: 40vw;
  background-attachment: scroll;
 background-image:url(kkopi\ home\ banner.jpg);
  background-repeat: no-repeat;
@@ -374,7 +374,7 @@ button:hover::after
     }
 
   .body2{
-  height: 1000px; /* Body Space/White Space */
+  height: auto; /* Body Space/White Space */
   background-color:#F0E2DC;
   padding: 20px;
     text-align: center;
@@ -411,11 +411,11 @@ button:hover::after
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 200px;
-    gap: 16px;
+    height: 25%;
+    gap: 1vh;
     transition: 0.3s;
     background-color: rgba(255, 255, 255, 0);
-    
+    padding: 5%;
   }
 
   .container5 li{
@@ -535,8 +535,8 @@ button:hover::after
 
   .iced-latte{
     font-weight: bolder;
-    padding-top: 200px;
-    padding-left: 25px;
+    padding-top: 10vw;
+    padding-left: 3vh;
     border: none;
     border-radius: 25px;
     color: rgb(255, 247, 131);
@@ -558,8 +558,8 @@ button:hover::after
 
   .milktea{
     font-weight: bolder;
-    padding-top: 200px;
-    padding-left: 20px;
+    padding-top: 10vw;
+    padding-left: 3vh;
     border: none;
     border-radius: 25px;
     color: rgb(255, 247, 131);
@@ -581,7 +581,8 @@ button:hover::after
 
   .amerikano{
     font-weight: bolder;
-    padding-top: 200px;
+    padding-top: 10vw;
+    padding-left: 0.5vh;
     border: none;
     border-radius: 25px;
     color: rgb(255, 247, 131);
@@ -603,8 +604,8 @@ button:hover::after
 
   .hot-drinks{
     font-weight: bolder;
-    padding-top: 200px;
-    padding-left: 30px;
+    padding-top: 10vw;
+    padding-left: 3vh;
     border: none;
     border-radius: 25px;
     color: rgb(255, 247, 131);
@@ -641,4 +642,9 @@ padding-left: 25%;
   width: 50%;
 }
 
-  
+.container5 h1{
+  font-size: 1.5vmax;
+  text-align: center;
+  text-shadow: 1vmax 1vmax 1.5vmax#000;
+}
+
