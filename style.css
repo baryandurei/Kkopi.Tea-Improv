@@ -380,7 +380,9 @@ button:hover::after
     text-align: center;
     font-size: 60px;
     display: flex;
-    color: rgb(176, 73, 7)
+    color: rgb(176, 73, 7);
+    width: 100%;
+    
   }
 
   .social-icons{
@@ -412,6 +414,7 @@ button:hover::after
     height: 200px;
     gap: 16px;
     transition: 0.3s;
+    background-color: rgba(255, 255, 255, 0);
     
   }
 
@@ -625,4 +628,17 @@ button:hover::after
   max-height: 400px; 
   object-fit: cover;
 }*/
+
+.branchesbody {
+  width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-left: 25%;
+}
+
+.branchesbody, img{
+  width: 50%;
+}
+
   
