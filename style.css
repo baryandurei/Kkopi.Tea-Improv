@@ -618,18 +618,6 @@ button:hover::after
                 -2px -2px 2px #00000026;
   }
 
-  .aboutpic {
-  width: 100%;
-  max-height: 400px; 
-  object-fit: cover;
-}
-
-/*.transparent-img{
-  width: 100%;
-  max-height: 400px; 
-  object-fit: cover;
-}*/
-
 .branchesbody {
   width: 100%;
 display: flex;
@@ -648,3 +636,49 @@ padding-left: 25%;
   text-shadow: 1vmax 1vmax 1.5vmax#000;
 }
 
+/*.container-wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* You might want to adjust padding or remove it if the image is full width */
+
+
+.image-section {
+    width: 100%;
+    overflow: hidden; /* Ensures image doesn't overflow its container */
+}
+
+.image-section img {
+  width: 100%;
+  max-height: 400px; 
+  object-fit: cover;
+
+}
+
+.text-section {
+    position: relative;
+    line-height: 1.6;
+    background-image: url('transparent.png'); 
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    padding: 20px;
+    z-index: 1; 
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.5;
+    z-index: -1; 
+}
+
+.text-section * {
+    position: relative;
+    z-index: 2; 
+}
