@@ -682,3 +682,8 @@ padding-left: 25%;
     position: relative;
     z-index: 2; 
 }
+
+.container6 {
+  display: flex;
+  height: 400px;
+}
